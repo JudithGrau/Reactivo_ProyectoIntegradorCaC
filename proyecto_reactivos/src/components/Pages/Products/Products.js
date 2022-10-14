@@ -1,5 +1,8 @@
+import { Container } from "react-bootstrap"
+import { CardsProduct } from "./CardsProduct"
+
 export const Products = () =>{
     return(
-        <div>Productos...</div>
+        <Container className= "my-5 text-center"><CardsProduct /></Container>
     )
 }
